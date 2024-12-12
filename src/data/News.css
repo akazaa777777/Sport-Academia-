@@ -1,0 +1,38 @@
+.news {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .news h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .news ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .news-item {
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .news-item span {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .news-item p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  

@@ -1,0 +1,15 @@
+.students {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .students h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .students p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  

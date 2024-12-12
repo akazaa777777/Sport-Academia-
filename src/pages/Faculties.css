@@ -1,0 +1,15 @@
+.faculties {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .faculties h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .faculties p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  

@@ -1,0 +1,27 @@
+.footer {
+  background-color: #000; /* Черный фон */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease; /* Плавная анимация смены фона */
+}
+
+.footer:hover {
+  background-color: #1a1a1a; /* Темно-серый фон при наведении */
+}
+
+.footer-info {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #66ccff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease; /* Плавная анимация для ссылок */
+}
+
+.footer-links a:hover {
+  color: #ffcc00; /* Изменение цвета на золотой при наведении */
+  text-decoration: underline;
+}

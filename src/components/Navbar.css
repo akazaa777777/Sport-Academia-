@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a; /* Темный фон */
+  padding: 10px 20px;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.navbar img.sportfkf {
+  width: 50px; /* Размер логотипа */
+  height: 50px;
+  object-fit: cover; /* Обрезка, чтобы изображение не деформировалось */
+  border-radius: 50%; /* Круглый логотип */
+  margin-right: 10px; /* Отступ между логотипом и текстом */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Анимация для увеличения и тени */
+}
+
+.navbar img.sportfkf:hover {
+  transform: scale(1.2); /* Увеличение логотипа при наведении */
+  box-shadow: 0 0 10px #ffcc00; /* Золотая подсветка */
+}
+
+.Navbar-logo {
+  font-size: 24px; /* Размер текста "Университет" */
+  font-weight: bold;
+  text-transform: uppercase; /* Заглавные буквы */
+  color: #ffcc00; /* Золотой цвет текста */
+  margin-right: auto; /* Чтобы текст сместился вправо от логотипа */
+}
+
+.Navbar-links {
+  list-style: none; /* Убираем маркеры */
+  display: flex;
+  gap: 15px; /* Расстояние между ссылками */
+}
+
+.Navbar-links a {
+  text-decoration: none; /* Убираем подчеркивание */
+  color: #ccc; /* Светло-серый текст */
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease; /* Анимация изменения цвета и положения */
+}
+
+.Navbar-links a:hover {
+  color: #ffcc00; /* Золотой цвет при наведении */
+  transform: translateY(-3px); /* Поднимаем текст при наведении */
+}
+
+.Navbar-links a:active {
+  transform: translateY(1px); /* Легкий эффект нажатия */
+}
